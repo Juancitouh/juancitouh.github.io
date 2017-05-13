@@ -1,0 +1,68 @@
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	background: #99ccff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header{
+	background: black;
+}
+
+h1{
+	font-size: 45px;
+	color: yellow;
+}
+/*.Home, .Noticias, .Entrete, .abogados
+	background: black;
+	color: yellow;
+	padding: 1px 10px;
+	
+}*/
+h2{
+	color: yellow;
+
+}
+.destacados{
+	color: black;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: black;
+	padding: 5px 15px;
+	color: yellow;
+
+}
+
+nav a{
+	color: yellow;
+	display: inline;
+
+}
+a:hover { 
+    background-color: blue;
+}
+p{
+	color: #333300;
+}
+div{
+	background-color:yellow;
+	height: 150px;
+	width: 150px;
+	color: black;
+	border:1px solid #000;
+	float:left;
+	border-radius: 10px;
+	padding: 0px 100px 0px 0px;
+	margin: 5px 5px;
+}
+
+footer{
+	color: black;
+	clear: both;
+}
