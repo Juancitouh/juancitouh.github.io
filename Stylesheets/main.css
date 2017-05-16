@@ -10,18 +10,15 @@ body{
 
 header{
 	background: black;
+
 }
 
 h1{
 	font-size: 45px;
 	color: yellow;
 }
-/*.Home, .Noticias, .Entrete, .abogados
-	background: black;
-	color: yellow;
-	padding: 1px 10px;
-	
-}*/
+
+
 h2{
 	color: yellow;
 
