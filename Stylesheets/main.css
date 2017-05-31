@@ -1,64 +1,123 @@
 
-body{
+body {margin: 0;}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+    background-color:blue;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: lightblue;
+    color: white;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+header{
+	background-color: lightblue;
+	border-radius: 5px;
+}
+/**body{
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: auto;
 	margin-top: auto;
-	background: #99ccff;
+	background: #0033cc;
 	font-family: helvetica, arial, sans-serif;
 }
 
 #header{
-	background: black;
-	color: yellow;
+	background:#ffffff;
 	padding: 5px 5px;
-	
-
-
-	
 
 }
 
 h1{
 	font-size: 45px;
-	color: yellow;
+	color: #0033cc;
+}
+h3 {
+	color: #0033cc
 }
 
 
 h2{
-	color: black;
+	color: #ffffff;
 
 }
-.destacados{
-	color: black;
-}
+/**.destacados{
+	color: black;}**/
 
-nav ul li{
+/**nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	background-color: black;
+	background-color: #ffffff;
 	padding: 5px 15px;
 	color: yellow;
+	border: 2px solid #000;
 
 }
 
 nav a{
-	color: yellow;
+	color: #0033cc;
 	display: inline;
 
 }
 a:hover { 
-    background-color: blue;
+    background-color: #66ccff;
 }
 p{
-	color: #333300;
+	color: #fff;
 }
 div{
-	background-color:yellow;
+	background-color:#ffffff;
 	height: 150px;
 	width: 150px;
-	color: black;
-	border:1px solid #000;
+	color: #0033cc;
+	border:2px solid #000;
 	float:left;
 	border-radius: 10px;
 	padding: 0px 100px 0px 0px;
@@ -69,3 +128,4 @@ footer{
 	color: black;
 	clear: both;
 }
+**/
