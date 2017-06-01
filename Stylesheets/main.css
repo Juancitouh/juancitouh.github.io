@@ -5,7 +5,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: blue;
 }
 
 ul.topnav li {float: left;}
@@ -18,9 +18,9 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: lightblue;}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li a.active {background-color: gray;}
 
 ul.topnav li.right {float: right;}
 
@@ -28,8 +28,13 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+header {
+	color: blue;
+}
 
-
+footer {
+	color: blue;
+}
 /**body {margin: 0;}
 
 ul.sidenav {
