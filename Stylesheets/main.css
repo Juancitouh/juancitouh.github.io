@@ -5,14 +5,14 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: white;
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,9 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 header {
-	color: blue;
+	color: white;
+	background-color: blue;
+	padding: 5px 5px;
 }
 
 footer {
