@@ -16,174 +16,40 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color: blue;
+    color: #0099ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: lightblue;}
+ul.topnav li a:hover:not(.active) {background-color: #ffcc00;}
 
-ul.topnav li a.active {background-color: gray;}
+ul.topnav li a.active {background-color: lightgreen;}
 
 ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
-    #sitio {
-        color: red;
-    }
+    
     
 }
+
 header {
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color:#0099ff;
     padding: 5px 5px;
+    font-family: 'Bungee Shade', cursive
+
 }
 footer {
-	color: blue;
+	color: #0099ff;
 
 }
 iframe{
     display: right;
 }
-#sitio {
+#sitio{
     color: red;
 }
 
-
-/**body {margin: 0;}
-
-ul.sidenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: white;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    border-radius: 5px;
-}
-
-ul.sidenav li a {
-    display: block;
-    color: blue;
-    padding: 8px 16px;
-    text-decoration: none;
-}
- 
-ul.sidenav li a.active {
-    background-color:blue;
-    color: white;
-}
-
-ul.sidenav li a:hover:not(.active) {
-    background-color: lightblue;
-    color: white;
-}
-
-div.content {
-    margin-left: 25%;
-    padding: 1px 16px;
-    height: 1000px;
-    
-}
-
-@media screen and (max-width: 900px) {
-    ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
-    }
-}
-header{
-	background-color: lightblue;
-	border-radius: 5px;
-}
-**/
-
-
-
-
-/**body{
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	margin-top: auto;
-	background: #0033cc;
-	font-family: helvetica, arial, sans-serif;
-}
-
-#header{
-	background:#ffffff;
-	padding: 5px 5px;
-
-}
-
-h1{
-	font-size: 45px;
-	color: #0033cc;
-}
-h3 {
-	color: #0033cc
-}
-
-
-h2{
-	color: #ffffff;
-
-}
-
-
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	background-color: #ffffff;
-	padding: 5px 15px;
-	color: yellow;
-	border: 2px solid #000;
-
-}
-
-nav a{
-	color: #0033cc;
-	display: inline;
-
-}
-a:hover { 
-    background-color: #66ccff;
-}
-p{
-	color: #fff;
-}
-div{
-	background-color:#ffffff;
-	height: 150px;
-	width: 150px;
-	color: #0033cc;
-	border:2px solid #000;
-	float:left;
-	border-radius: 10px;
-	padding: 0px 100px 0px 0px;
-	margin: 5px 5px;
-}
-
-footer{
-	color: black;
-	clear: both;
-}
-**/
