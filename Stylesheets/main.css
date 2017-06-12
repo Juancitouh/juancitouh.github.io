@@ -12,7 +12,11 @@ ul.topnav {
     background-color: white;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+    float: left;
+    padding: 1px;
+}
+
 
 ul.topnav li a {
     display: block;
@@ -20,6 +24,10 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-color: black;
+
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #ffcc00;}
@@ -48,8 +56,10 @@ footer {
 }
 iframe{
     display: right;
+    background-color: gray;
 }
 #sitio{
     color: red;
+   
 }
 
