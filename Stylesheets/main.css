@@ -3,15 +3,15 @@ body {
     text-align: center;
 }
 
-
+/*color de fondo de navegacion*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: #0099ff;
 }
-
+/*espancion entre los botones*/
 ul.topnav li {
     float: left;
     padding: 1px;
@@ -20,13 +20,14 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: #0099ff;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 8px 8px 8px 8px;
     border-style: solid;
     border-color: black;
+    border-width: 1px;
 
 }
 
@@ -47,7 +48,8 @@ header {
     color: black;
     background-color:#0099ff;
     padding: 5px 5px;
-    font-family: 'Bungee Shade', cursive;
+    /*font-family: 'Bungee Shade', cursive;*/
+    padding-bottom: 0px;
 
 }
 footer {
@@ -56,10 +58,9 @@ footer {
 }
 iframe{
     display: right;
-    background-color: gray;
 }
-#sitio{
-    color: red;
+/*#sitio{
+    color: red;*/
    
 }
 
