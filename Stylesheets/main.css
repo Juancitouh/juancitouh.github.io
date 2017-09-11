@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+*{
+    box-sizing: border-box;
+}
 /*color de fondo de navegacion*/
 ul.topnav {
     list-style-type: none;
